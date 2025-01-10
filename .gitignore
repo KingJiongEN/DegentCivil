@@ -1,3 +1,4 @@
+.git.backup
 *.png
 *.dill
 ckpts/*

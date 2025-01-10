@@ -14,40 +14,28 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
         with:
           fetch-depth: 0
       
-      - uses: actions/setup-python@v4
+      - name: Setup Python
+        uses: actions/setup-python@v4
         with:
-          python-version: 3.x
-          cache: pip
+          python-version: '3.x'
       
-      - name: Install system dependencies
+      - name: Install dependencies
         run: |
-          sudo apt-get update
-          sudo apt-get install -y cairo-dev libcairo2-dev libfreetype6-dev
+          python -m pip install --upgrade pip
+          pip install mkdocs-material mike
+          pip install mkdocs-mermaid2-plugin
       
-      - name: Install Python dependencies
-        run: |
-          pip install -r docs/requirements.txt
-      
-      - name: Configure Git user
+      - name: Configure Git
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
       
-      - name: Deploy documentation
+      - name: Setup doc deploy
         run: |
-          git checkout gh-pages || git checkout -b gh-pages
-          mkdocs gh-deploy --force
-          git push origin gh-pages
-        env:
-          GOOGLE_ANALYTICS_KEY: ${{ secrets.GOOGLE_ANALYTICS_KEY }}
-      
-      - name: Upload documentation artifact
-        uses: actions/upload-artifact@v3
-        with:
-          name: documentation
-          path: site/
-          retention-days: 30 
+          mike install-extras
+          mike deploy --push --update-aliases latest
+          mike set-default --push latest 
