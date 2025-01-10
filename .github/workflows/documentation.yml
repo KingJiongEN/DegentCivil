@@ -28,6 +28,11 @@ jobs:
           python -m pip install --upgrade pip
           pip install mkdocs-material mike
           pip install mkdocs-mermaid2-plugin
+          pip install mkdocs-git-revision-date-localized-plugin
+          pip install mkdocs-minify-plugin
+          pip install mkdocs-redirects
+          pip install mkdocs-awesome-pages-plugin
+          pip install pymdown-extensions
       
       - name: Configure Git
         run: |
