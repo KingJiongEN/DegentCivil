@@ -1,0 +1,105 @@
+{
+    "Broadcast Screen": {
+        "name": "Broadcast Screen",
+        "interactable": "USE",
+        "status": "Large and high-definition, providing clear visuals for all broadcasts.",
+        "instruction": "Watch live broadcasts here. Enjoy the clarity and vibrant colors of our high-definition screen.",
+        "other_status": {
+            "news": "2022-10-01 00:00 Welcome to the smallville! You can do everything you want here!"
+        }
+    },
+    "Gambling table": {
+        "name": "Gambling Table",
+        "interactable": "USE",
+        "status": "Well-maintained and inviting, ready for your next game.",
+        "instruction": "Here you can play the Roulette. Provide your character id to ensure you are valid to play this. Make your prediction about the final landing position of the ball, particularly red or black. And place your bet. If your prediction is right, your bet will be doubled, otherwise, you lose all your bet.",
+        "functions": "Roulette"
+    },
+    "Bar": {
+        "name": "Bar",
+        "interactable": "USE",
+        "status": "Stocked with an extensive selection of drinks, ready to serve.",
+        "instruction": "Customers can make order based on the menu: 1) cocktail, results once taking: -3000 money, + 1 satiety, +4 vigor; 2) beer, results once taking: -2000 money, + 1 satiety, +2 vigor."
+    },
+    "Bar table": {
+        "name": "Bar Table",
+        "interactable": "USE",
+        "status": "Brand new and clean, with some chairs alongside.",
+        "instruction": "A place to enjoy your drinks and have conversations."
+    },
+    "Dance floor": {
+        "name": "Dance Floor",
+        "interactable": "USE",
+        "status": "Spacious and well-lit, inviting you to dance the night away.",
+        "instruction": "A place to enjoy your drinks and have conversations."
+    },
+    "Ordering": {
+        "name": "Ordering",
+        "interactable": "USE",
+        "status": "Efficient and user-friendly, ensuring a smooth ordering process.",
+        "instruction": "Customers can make order based on the menu: 1) coffee, results once taking: -200 money, + 1 satiety, +4 vigor; 2) cake, results once taking: -300 money, + 4 satiety.",
+        "functions": "OrderMenu"
+    },
+    "Cafe table": {
+        "name": "Cafe Table",
+        "interactable": "USE",
+        "status": "Neatly arranged and clean, perfect for enjoying your meal or drink.",
+        "instruction": "Enjoy your orders here. Free Wi-Fi is available for guests."
+    },
+    "Artwork": {
+        "name": "Artwork",
+        "interactable": "USE",
+        "status": "Intriguing and thought-provoking, showcasing a variety of styles and mediums.",
+        "instruction": "You can glance at the artwork and feel the emotions of the artist.",
+        "other_status": {
+            "painting": [
+                    ]
+        },
+        "functions": "StartAppreciate"
+    },
+    "Workshop": {
+        "name": "Workshop",
+        "interactable": "DRAWINIT",
+        "status": "Fully equipped and ready for creative exploration and learning.",
+        "instruction": "Participate in art workshops and unleash your creativity under the guidance of experienced artists."
+    },
+    "Desk": {
+        "name": "Desk",
+        "interactable": "USE",
+        "status": "Organized and equipped with the latest technology for effective communication.",
+        "instruction": "A space for meetings, presentations, or working on your projects with access to high-speed internet and AV equipment."
+    },
+    "Goal": {
+        "name": "Goal",
+        "interactable": "USE",
+        "status": "Ready for an exciting game, inviting children and adults alike to play.",
+        "instruction": "Enjoy soccer or other ball games here. Please share the space with others."
+    },
+    "Pulpit": {
+        "name": "Pulpit",
+        "interactable": "USE",
+        "status": "Elegant and well-designed, providing a focal point for speeches and presentations.",
+        "instruction": "A place for speeches, presentations, or performances. Please respect the speaker and the audience."
+    },
+    "Office Desk Recycling":{
+        "name": "Recycling Counter",
+        "interactable": "USE",
+        "status": "Neat and organized with office supplies.",
+        "instruction": "You can sell your artworks here, with the governmental guide price. Provide the resource id of the artwork you want to sell, and the system will give you the guide price. If you accept the price, the artwork will be sold.",
+        "functions": ["GetGuidePrice","TradeArtwork"]
+    },
+    "Office Desk Relief":{
+        "name": "Relief Counter",
+        "interactable": "USE",
+        "status": "Neat and organized with office supplies.",
+        "instruction": "You can receive the relief fund here.",
+        "functions": ["ReleaseRelief"]
+    },
+    "Doctor desk":{
+        "name": "Doctor Desk",
+        "interactable": "USE",
+        "status": "Neat and organized with  medical supplies.",
+        "instruction": "A space for medical consultations. If you accept the prescription, you will get the treatment and be charged for some fees.",
+        "functions": ["GetPrescription", "TreatAndCharge" ]
+    }
+}

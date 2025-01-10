@@ -1,0 +1,16 @@
+{
+    "1": {
+      "id": "10",
+      "name": "Dorothy Johnson",
+      "age": 35,
+      "bio": "Pre-highschool teacher. Now a boss of a Cafe",
+      "in_building": "Cafe"
+    },
+    "2":{
+      "id": "11",
+      "name": "John Doe",
+      "age": 25,
+      "bio": "A rich student who left the family in NYC and now is a boss of the disco",
+      "in_building": "Disco"
+    }
+}

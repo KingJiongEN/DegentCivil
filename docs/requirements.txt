@@ -1,0 +1,8 @@
+mkdocs-material>=9.4.0
+mkdocs-mermaid2-plugin>=1.1.1
+mkdocs-minify-plugin>=0.7.1
+mkdocs-git-revision-date-plugin>=0.3.2
+mkdocs-redirects>=1.2.1
+mkdocs-awesome-pages-plugin>=2.9.2
+mike>=2.0.0
+pymdown-extensions>=10.3 

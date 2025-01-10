@@ -1,0 +1,21 @@
+States:
+  BASE:
+    PERSP: {}
+    PLAN: {}
+    ACT: {}
+    CHATINIT: {}
+    RECEIVECHAT: {}
+    CHATING: {}
+    ACTREFLECTION: {}
+    DRAW: {}
+    MOVE: {}
+    APPRECIATE: {}
+    SUM: {}
+    BARGAIN: {}
+    DRAWINIT: {}
+    DRAW: {}
+    USE: {}
+    EMOTION: {}
+    IDLE: {}
+  Trader: 
+    USERTRADE: {}

@@ -1,0 +1,475 @@
+{
+  "1": {
+    "id": 1,
+    "name": "Emma Smith",
+    "age": 35,
+    "bio": "Professional gamble player. ",
+    "goal": "To write her own book",
+    "mbti": "ENFP",
+    "money": 10
+  },
+  "2": {
+    "id": 2,
+    "name": "Jack Brown",
+    "age": 28,
+    "bio": "Young athlete.",
+    "goal": "Become the fastest man",
+    "mbti": "ENFP"
+  },
+  "3": {
+    "id": 3,
+    "name": "Lily Johnson",
+    "age": 67,
+    "bio": "Retired teacher, passionate gardener",
+    "goal": "Create a community garden",
+    "mbti": "ESFJ"
+  },
+  "4": {
+    "id": 4,
+    "name": "Noah Davis",
+    "age": 16,
+    "bio": "High school student, very extrovert. Wants to talk with everyone. ",
+    "goal": "Form a band",
+    "mbti": "ESTP"
+  },
+  "5": {
+    "id": 5,
+    "name": "Olivia Miller",
+    "age": 30,
+    "bio": "Chef, specializes in farm-to-table cuisine",
+    "goal": "Open her own restaurant",
+    "mbti": "ISTJ"
+  },
+  "6": {
+    "id": 6,
+    "name": "Liam Wilson",
+    "age": 42,
+    "bio": "Volunteer firefighter, outdoor adventurer",
+    "goal": "Save lives and protect nature",
+    "mbti": "ESFJ"
+  },
+  "7": {
+    "id": 7,
+    "name": "Sophia Anderson",
+    "age": 29,
+    "bio": "Artist, known for colorful murals",
+    "goal": "Paint a town-wide mural",
+    "mbti": "INFJ"
+  },
+  "8": {
+    "id": 8,
+    "name": "Mason Moore",
+    "age": 58,
+    "bio": "Local historian, author of town's history",
+    "goal": "Preserve historical landmarks",
+    "mbti": "INTP"
+  },
+  "9": {
+    "id": 9,
+    "name": "Ava Taylor",
+    "age": 33,
+    "bio": "Pediatric nurse, loves children",
+    "goal": "Improve children's healthcare",
+    "mbti": "ENFJ"
+  },
+  "10": {
+      "name": "Leo Parks",
+      "age": 42,
+      "bio": "Renowned chef, famous for fusion cuisine that blends traditional and modern flavors",
+      "goal": "To open a culinary school for underprivileged youth",
+      "id": 10,
+      "mbti": "ESFP"
+  },
+  "11": {
+      "name": "Miles Green",
+      "age": 38,
+      "bio": "Inventive engineer known for sustainable and eco-friendly building designs. Advocates for green technology in architecture.",
+      "goal": "To design the first fully sustainable town with zero carbon footprint.",
+      "id": 11,
+      "mbti": "INTJ"
+  },
+  "12": {
+      "name": "Leo Barnett",
+      "age": 45,
+      "bio": "Master chef with a passion for fusion cuisine, combining flavors from different cultures to create innovative dishes.",
+      "goal": "To open a globally-inspired restaurant that offers cooking classes to the community.",
+      "id": 12,
+      "mbti": "ESFP"
+  },
+  "13": {
+      "name": "Mira Langley",
+      "age": 28,
+      "bio": "A talented architect known for her eco-friendly and sustainable building designs, aiming to minimize environmental footprints.",
+      "goal": "To design a self-sustaining eco-village that serves as a model for future communities.",
+      "id": 13,
+      "mbti": "INTJ"
+  },
+  "14": {
+      "name": "Talia Rivera",
+      "age": 24,
+      "bio": "An energetic urban farmer who transformed her rooftop garden into a thriving community farm, inspiring locals to grow their own food.",
+      "goal": "To expand urban farming across the city, promoting food security and community resilience.",
+      "id": 14,
+      "mbti": "ENFP"
+  },
+  "15": {
+      "name": "Caleb Wong",
+      "age": 46,
+      "bio": "Innovative Tech Entrepreneur who revolutionized the local tech scene with his pioneering software solutions, inspiring a new generation of tech enthusiasts.",
+      "goal": "To establish a tech hub in the town that fosters innovation and provides opportunities for up-and-coming tech talents.",
+      "id": 15,
+      "mbti": "ENTJ"
+  },
+  "16": {
+      "name": "Caleb Hart",
+      "age": 35,
+      "bio": "A former heavyweight boxing champion who now dedicates his time to youth sports programs, teaching discipline and resilience.",
+      "goal": "To establish a community center dedicated to sports and personal development for at-risk youth.",
+      "id": 16,
+      "mbti": "ESTJ"
+  },
+  "17": {
+      "name": "Iris Bloom",
+      "age": 28,
+      "bio": "A dedicated botanist who travels the world to study rare plants and promote environmental conservation. She shares her knowledge through documentaries and social media.",
+      "goal": "To discover a plant-based solution to cure a widespread disease.",
+      "id": 17,
+      "mbti": "INFJ"
+  },
+  "18": {
+      "name": "Zara Phoenix",
+      "age": 29,
+      "bio": "Digital nomad and freelance journalist who travels the world to report on unique cultural events and environmental issues.",
+      "goal": "To create a digital platform that raises awareness and funds for global environmental and cultural preservation projects.",
+      "id": 18,
+      "mbti": "INFJ"
+  },
+  "19": {
+      "name": "Evelyn Rivera",
+      "age": 33,
+      "bio": "A passionate environmental activist and botanical expert who has dedicated her life to protecting and restoring native plant species in urban areas.",
+      "goal": "To create an extensive urban garden project that not only beautifies the city but also promotes biodiversity and supports local ecosystems.",
+      "id": 19,
+      "mbti": "ENFJ"
+  },
+  "20": {
+      "name": "Leo Hawthorne",
+      "age": 34,
+      "bio": "A skilled botanist and herbalist known for discovering rare plant species and creating potent natural remedies. He has a deep connection with nature and aims to preserve its integrity.",
+      "goal": "To create a vast public garden that showcases plants from all over the world with healing properties, encouraging natural wellness.",
+      "id": 20,
+      "mbti": "INFP"
+  },
+  "21": {
+      "name": "Liam Caldwell",
+      "age": 34,
+      "bio": "A passionate horticulturist who has transformed urban landscapes into thriving green spaces, bringing nature back into the concrete jungle.",
+      "goal": "To develop a city-wide network of rooftop gardens and vertical farms, enhancing food security and reducing urban heat islands.",
+      "id": 21,
+      "mbti": "ENFP"
+  },
+  "22": {
+      "name": "Lila Rhodes",
+      "age": 32,
+      "bio": "Renowned Culinary Artist who has traveled the world to learn about global cuisines, aiming to bring people together through the power of food.",
+      "goal": "To open a groundbreaking culinary school in the town that combines traditional cooking techniques with modern culinary innovations.",
+      "id": 22,
+      "mbti": "ESFP"
+  },
+  "23": {
+      "name": "Lila Foster",
+      "age": 27,
+      "bio": "A forward-thinking urban planner with a keen eye for blending historical architecture with modern infrastructure. She aims to preserve the cultural heritage of cities while making them accessible and functional for future generations.",
+      "goal": "To develop a model for urban renewal that respects historical contexts and incorporates green spaces and cutting-edge technology, making the city a living museum of past and present.",
+      "id": 23,
+      "mbti": "INFJ"
+  },
+  "24": {
+      "name": "Cassandra Hart",
+      "age": 32,
+      "bio": "A visionary artist and muralist whose large-scale works highlight the interconnectedness of nature and humanity. Cassandra uses her art to transform drab urban walls into vibrant, thought-provoking conversations.",
+      "goal": "To create a public art trail in the town that tells the story of the community's resilience and hope through interactive and immersive murals.",
+      "id": 24,
+      "mbti": "ENFP"
+  },
+  "25": {
+      "name": "Cyrus Storm",
+      "age": 35,
+      "bio": "A fearless explorer and adventurer, scouring ancient ruins and untouched lands for hidden artifacts and secrets lost to time. His travels have taken him to the most remote corners of the world, facing dangers untold to uncover history's mysteries.",
+      "goal": "To find an ancient artifact said to possess the power to bring peace and harmony to the world, believed to be hidden in the depths of an uncharted jungle.",
+      "id": 25,
+      "mbti": "ENTP"
+  },
+  "26": {
+      "name": "Jasper Hale",
+      "age": 45,
+      "bio": "A former technology executive who left the urban life to promote digital literacy in rural areas, aiming to bridge the digital divide.",
+      "goal": "To establish a network of community-driven, state-of-the-art technology learning centers in remote areas.",
+      "id": 26,
+      "mbti": "ENTP"
+  },
+  "27": {
+      "name": "Ellie Hawthorne",
+      "age": 33,
+      "bio": "An ambitious urban farmer who innovates in vertical gardening and hydroponics, striving to make fresh produce more accessible in urban areas.",
+      "goal": "To create a network of urban farms across the city, making it easy for residents to access fresh, locally-grown produce year-round.",
+      "id": 27,
+      "mbti": "ENFJ"
+  },
+  "28": {
+      "name": "Marco Sinclair",
+      "age": 31,
+      "bio": "A skilled and intuitive software engineer who shifted his focus to developing educational apps for children with learning disabilities. Drawing from his personal experiences, he is dedicated to creating accessible and engaging learning tools.",
+      "goal": "To revolutionize the educational tech industry by making learning accessible to all children, especially those with special needs, bridging the gap in educational opportunities.",
+      "id": 28,
+      "mbti": "INTP"
+  },
+  "29": {
+      "name": "Mara Quinn",
+      "age": 32,
+      "bio": "A passionate environmental lawyer who fights against large corporations to protect endangered ecosystems. Mara left her high-paying job at a city law firm to work with communities and activists, using her expertise to challenge illegal deforestation and pollution.",
+      "goal": "To win a landmark case that sets a global precedent for environmental protection and corporate accountability, safeguarding the planet for future generations.",
+      "id": 29,
+      "mbti": "INTJ"
+  },
+  "30": {
+      "name": "Theodore Mint",
+      "age": 27,
+      "bio": "An innovative tech entrepreneur who has a passion for creating technologies that improve everyday life. Theodore's latest invention, a smart greenhouse, uses AI to optimize plant growth and revolutionizes urban farming.",
+      "goal": "To establish a network of smart greenhouses across the town, making fresh produce accessible to everyone and promoting sustainability.",
+      "id": 30,
+      "mbti": "INTJ"
+  },
+  "31": {
+      "name": "Marco Silversmith",
+      "age": 40,
+      "bio": "A master jeweler known for his exquisite craftsmanship and ability to imbue magical properties into his creations. Marco’s work is sought after by both the wealthiest of nobles and the most fearsome of adventurers.",
+      "goal": "To craft a legendary set of jewels that bestow the wearer with unprecedented powers, aimed at protecting the town from looming threats.",
+      "id": 31,
+      "mbti": "ISTJ"
+  },
+  "32": {
+      "name": "Theo Rivera",
+      "age": 28,
+      "bio": "A skilled cybernetic engineer, specializing in prosthetic development, who merges cutting-edge technology with human biology to enhance physical capabilities. Theo's passion is rooted in a childhood accident that led to his own use of a prosthetic arm, inspiring him to innovate in ways that blend the line between human and machine.",
+      "goal": "To revolutionize prosthetic technology by creating fully integrated cybernetic limbs that not only replicate but exceed natural human abilities, making them accessible to all who need them.",
+      "id": 32,
+      "mbti": "ISTP"
+  },
+  "33": {
+      "name": "Luna Marigold",
+      "age": 32,
+      "bio": "A passionate botanist and herbalist who has spent her life studying the medicinal properties of plants. Luna is known for her efforts in promoting sustainable agriculture and natural healing methods.",
+      "goal": "To create a worldwide network of community gardens that not only provide sustainable food sources but also educate people about the importance of preserving biodiversity and using plants for natural healing.",
+      "id": 33,
+      "mbti": "INFP"
+  },
+  "34": {
+      "name": "Gwen Torres",
+      "age": 32,
+      "bio": "A culinary genius who marries traditional and modern cooking techniques to create innovative dishes. Gwen champions the farm-to-table movement, aiming to build direct relationships between local farmers and her bustling restaurants.",
+      "goal": "To open a culinary school that focuses on sustainable cooking practices, nurturing the next generation of chefs to be mindful of their environmental and social impact.",
+      "id": 34,
+      "mbti": "ENFP"
+  },
+  "35": {
+      "name": "Milo Thatch",
+      "age": 32,
+      "bio": "An innovative marine biologist and conservationist, dedicated to restoring coral reefs around the world using cutting-edge biotechnology. His extensive work in the field has led to groundbreaking methods in coral rehabilitation, making strides towards a healthier ocean ecosystem.",
+      "goal": "To launch a global initiative that combines local awareness campaigns with advanced biotechnological solutions to restore and protect coral reefs, aiming to significantly reduce the effects of climate change and marine pollution.",
+      "id": 35,
+      "mbti": "ENFJ"
+  },
+  "36": {
+      "name": "Caleb Knight",
+      "age": 35,
+      "bio": "A pioneering software developer who has created a range of apps to improve town logistics and community engagement. Caleb's work includes a neighborhood watch app, a local trade and barter platform, and a communal events planner.",
+      "goal": "To digitize the town's public services, making them more accessible and efficient for all residents.",
+      "id": 36,
+      "mbti": "ENTJ"
+  },
+  "37": {
+      "name": "Tara Linwood",
+      "age": 29,
+      "bio": "A passionate environmental lobbyist, Tara has made it her mission to advocate for stronger, science-backed climate policies. With a background in environmental science and public policy, she works tirelessly to bridge the gap between scientific communities and policymakers, pushing for sustainable legislation that addresses the urgent needs of our planet.",
+      "goal": "To successfully lobby for the implementation of a comprehensive, global climate policy framework that incentivizes renewable energy adoption, phases out fossil fuels, and promotes conservation efforts, ultimately leading to a significant reduction in global carbon emissions.",
+      "id": 37,
+      "mbti": "INTJ"
+  },
+  "38": {
+      "name": "Jasper Hawthorn",
+      "age": 34,
+      "bio": "Jasper is a visionary architect known for integrating technology with traditional building techniques to create sustainable and resilient housing. Growing up in a coastal town severely affected by hurricanes, he became deeply passionate about creating homes that could withstand extreme weather conditions. His designs often incorporate renewable energy sources, rainwater harvesting systems, and vertical gardens, emphasizing harmony with the natural environment.",
+      "goal": "To revolutionize the construction industry by popularizing eco-friendly and disaster-resistant homes, ensuring that communities, especially those in vulnerable areas, have access to safe and sustainable housing.",
+      "id": 38,
+      "mbti": "INFJ"
+  },
+  "39": {
+      "name": "Sophie Mendez",
+      "age": 32,
+      "bio": "An environmental scientist who passionately advocates for climate change awareness through her engaging social media platforms and public speaking events.",
+      "goal": "To launch a global initiative aimed at drastically reducing carbon footprints through community-driven renewable energy projects.",
+      "id": 39,
+      "mbti": "ENFJ"
+  },
+  "40": {
+      "name": "Ellis Greyhawk",
+      "age": 29,
+      "bio": "A skilled archer from the dense forests of Elendale, Ellis has an unrivaled talent for beast mastery and survival skills. Trained by the mysterious woodland guardians, his connection to nature is profound.",
+      "goal": "To safeguard his homeland from encroaching dark forces by forging alliances with surrounding communities and training the next generation of defenders.",
+      "id": 40,
+      "mbti": "INFJ"
+  },
+  "41": {
+      "name": "Mira Langley",
+      "age": 28,
+      "bio": "An adventurous chef who travels the world to learn traditional cooking techniques and obscure recipes. Mira combines culinary traditions from different cultures to create innovative and sustainable dishes. Her cooking shows and workshops are a hit in the town.",
+      "goal": "To open a unique farm-to-table restaurant that not only serves delicious, globally inspired dishes but also educates the community about sustainable eating practices.",
+      "id": 41,
+      "mbti": "ENFP"
+  },
+  "42": {
+      "name": "Mia Rivera",
+      "age": 29,
+      "bio": "An ambitious environmental scientist who uses her knowledge to develop eco-friendly solutions for modern living. Mia specializes in sustainable water usage, aiming to revolutionize how small communities manage this vital resource.",
+      "goal": "To implement a town-wide rainwater harvesting system that not only addresses water scarcity but also educates residents about sustainable living.",
+      "id": 42,
+      "mbti": "INFJ"
+  },
+  "43": {
+      "name": "Eliot Marquez",
+      "age": 34,
+      "bio": "An accomplished chef with a deep passion for fusion cuisine, Eliot combines flavors from around the world to create unforgettable dining experiences. Having studied culinary arts in several countries, he applies his vast knowledge and innovative techniques to challenge the traditional boundaries of cooking. Eliot is dedicated to using sustainably sourced ingredients and often collaborates with local farmers and producers.",
+      "goal": "To open a globally recognized restaurant that not only offers a unique dining experience but also operates on principles of sustainability and zero waste, inspiring others in the culinary world to follow suit.",
+      "id": 43,
+      "mbti": "ENFP"
+  },
+  "44": {
+      "name": "Mira Valdez",
+      "age": 32,
+      "bio": "An esteemed botanist who combines her vast knowledge of plant life with cutting-edge technology to address environmental challenges. Mira's passion stems from her early years spent in the lush, biodiverse rainforests of her home country, where she first developed an appreciation for the interconnectedness of ecosystems. She works tirelessly to innovate sustainable solutions for food production, pollution reduction, and climate change mitigation.",
+      "goal": "To develop a revolutionary agricultural system that utilizes genetically modified plants to purify air and water, enhance soil health, and provide abundant, nutritious food, thereby combating hunger and environmental degradation simultaneously.",
+      "id": 44,
+      "mbti": "INFJ"
+  },
+  "45": {
+      "name": "Eliana Fox",
+      "age": 27,
+      "bio": "Eliana is a visionary urban farmer who turned a derelict city lot into a thriving community garden. With a background in botany and environmental science, she aims to reconnect urban dwellers with their food sources and promote sustainability.",
+      "goal": "To expand her urban farming initiative to multiple cities, creating green spaces that serve as community hubs for education, sustainability, and mental health.",
+      "id": 45,
+      "mbti": "ENFJ"
+  },
+  "46": {
+      "name": "Lia Song",
+      "age": 34,
+      "bio": "Lia is an innovative chef and restaurant owner who specializes in fusion cuisine, blending traditional dishes from around the world with modern culinary techniques to create unique and unforgettable eating experiences. Raised in a multicultural home, she developed a deep appreciation for global cultures and their cuisines. Lia's restaurant, 'Harmony Kitchen,' has become a beloved spot in her town, known for its vibrant atmosphere and creative dishes that tell a story.",
+      "goal": "To challenge and expand the culinary boundaries by introducing her patrons to dishes from lesser-known cultures, thereby fostering greater cultural appreciation and understanding through food. Lia aims to publish a cookbook sharing her culinary journey and the stories behind her most famous fusion dishes.",
+      "id": 46,
+      "mbti": "ENFP"
+  },
+  "47": {
+      "name": "Jasper Lin",
+      "age": 27,
+      "bio": "A tech-savvy entrepreneur who founded a startup focused on creating accessible technology for people with disabilities. Jasper believes in leveraging technology to bridge gaps in society and make everyday life more inclusive for everyone.",
+      "goal": "To develop an AI-powered assistant that can provide real-time, personalized support for individuals with disabilities, making independence more attainable.",
+      "id": 47,
+      "mbti": "ENTP"
+  },
+  "48": {
+      "name": "Finn Harper",
+      "age": 24,
+      "bio": "An adventurous urban explorer and talented graffiti artist, Finn has dedicated his life to turning the grey, forgotten corners of the city into vibrant, thought-provoking masterpieces. Raised in a bustling metropolis, he learned to navigate the urban jungle at a young age, finding beauty in the chaos. His artwork not only beautifies the city but also brings attention to social issues and inspires community engagement.",
+      "goal": "To transform the town's neglected spaces into an interconnected series of murals and installations that tell the town's history, celebrate its diversity, and foster a sense of shared identity among its residents.",
+      "id": 48,
+      "mbti": "ENFP"
+  },
+  "49": {
+      "name": "Iris Winters",
+      "age": 28,
+      "bio": "A talented botanist renowned for her ability to breed rare and exotic flowers that seem to glow with an inner light. Her greenhouse is a mosaic of colors, scents, and magical allure, drawing visitors from all over. Iris is dedicated to discovering new plant species in the wildest parts of the world.",
+      "goal": "To create a healing, luminous flower whose beauty and properties can cure melancholy, bringing joy and vitality to anyone who encounters it.",
+      "id": 49,
+      "mbti": "INFP"
+  },
+  "50": {
+      "name": "Mira Tanaka",
+      "age": 28,
+      "bio": "A brilliant software engineer who has dedicated her life to developing groundbreaking VR technologies that allow users to experience and interact with historic events in real-time. Her work is paving the way for immersive education and unparalleled access to history.",
+      "goal": "To create a fully immersive VR museum where people from all over the world can learn about and experience the richness of ancient civilizations, with the aim of fostering global cultural understanding and appreciation.",
+      "id": 50,
+      "mbti": "INTJ"
+  },
+  "51": {
+      "name": "Marco Flint",
+      "age": 45,
+      "bio": "A seasoned chef who has traveled the world to explore various culinary traditions. Known for his innovative fusion cuisine, he brings together flavors from around the globe to create unique and unforgettable dishes.",
+      "goal": "To open a culinary school that focuses on sustainable cooking practices and cultural food preservation, inspiring the next generation of chefs to think globally and act locally.",
+      "id": 51,
+      "mbti": "ESFP"
+  },
+  "52": {
+      "name": "Marcus Li",
+      "age": 45,
+      "bio": "A former tech entrepreneur who turned his attention to solving water scarcity issues after a life-changing trip to arid regions. Marcus combines his tech background with sustainable practices to innovate in water conservation and management.",
+      "goal": "To develop and implement affordable, cutting-edge water recycling technologies in communities facing severe water shortages, making clean water accessible to all.",
+      "id": 52,
+      "mbti": "INTJ"
+  },
+  "53": {
+      "name": "Isla Zarate",
+      "age": 29,
+      "bio": "A gifted urban planner and architect known for her sustainable and eco-friendly approach to city development, Isla has transformed numerous cities by integrating green spaces, renewable energy sources, and efficient transportation systems. Her innovative designs prioritize community health and environmental preservation.",
+      "goal": "To design the first fully sustainable and self-sufficient eco-city, serving as a model for future urban planning that harmoniously balances human needs with environmental conservation.",
+      "id": 53,
+      "mbti": "INFJ"
+  },
+  "54": {
+      "name": "Mira Everett",
+      "age": 28,
+      "bio": "An innovative urban planner with a knack for integrating technology and sustainability. Mira has spearheaded several projects focusing on renewable energy sources and smart city infrastructures, drastically reducing the town's carbon footprint.",
+      "goal": "To transform the town into a fully sustainable and self-sufficient smart city, where technology and nature coexist in harmony, ensuring a high quality of life for all inhabitants.",
+      "id": 54,
+      "mbti": "INTJ"
+  },
+  "55": {
+      "name": "Jasper Reed",
+      "age": 28,
+      "bio": "A passionate environmental activist and skilled photographer, Jasper uses his art to highlight the urgent need for conservation. His captivating images of endangered habitats have earned him international acclaim.",
+      "goal": "To launch a global environmental campaign that uses powerful imagery to raise awareness and funds for habitat preservation, ultimately slowing down the destruction of the planet's most vulnerable ecosystems.",
+      "id": 55,
+      "mbti": "INFJ"
+  },
+  "56": {
+      "name": "Cedric Walsh",
+      "age": 29,
+      "bio": "Cedric, once a celebrated architect in a sprawling metropolis, turned eco-friendly designer, focuses on sustainable living and green building practices. Witnessing the adverse effects of urban sprawl and pollution, he decided to use his skills for a greater cause. By incorporating renewable energy sources and repurposing materials, Cedric designs homes and spaces that coexist harmoniously with nature. His work is a testament to the balance that can be achieved between modern living and environmental stewardship.",
+      "goal": "To develop a completely sustainable neighborhood in the town, utilizing only renewable resources, to serve as a model for future developments worldwide.",
+      "id": 56,
+      "mbti": "INTJ"
+  },
+  "57": {
+      "name": "Marcus Flint",
+      "age": 45,
+      "bio": "A seasoned blacksmith known for his exceptional skill in crafting tools and artwork from recycled metals. Marcus combines traditional techniques with modern design to create pieces that are both functional and beautiful.",
+      "goal": "To revive the ancient craft of blacksmithing and teach the community sustainable practices by using recycled materials for his creations.",
+      "id": 57,
+      "mbti": "ISTP"
+  },
+  "58": {
+      "name": "Elliot Vega",
+      "age": 27,
+      "bio": "Elliot is a charismatic and talented chef who specializes in fusion cuisine, blending flavors from different cultures to create innovative dishes. Growing up in a multicultural neighborhood, Elliot was exposed to a variety of culinary traditions from an early age. This sparked a deep love for cooking and a desire to bring people together through food. Elliot's restaurant, The Melting Pot, has become a local hotspot, known for its vibrant atmosphere and unique menu that celebrates diversity.",
+      "goal": "To open a series of culinary schools in underserved communities around the world, teaching young people the art of cooking and the power of cultural exchange through food.",
+      "id": 58,
+      "mbti": "ENFJ"
+  },
+  "59": {
+      "name": "Sofia Rivera",
+      "age": 28,
+      "bio": "A culinary genius who has traveled the world to master the art of cooking. Sofia has a talent for fusing traditional dishes with modern techniques, resulting in innovative and delicious meals. She runs a popular local restaurant that also serves as a culinary school for aspiring chefs.",
+      "goal": "To revolutionize the town's food culture by introducing sustainable eating practices and to become a Michelin-starred chef, putting the town on the global culinary map.",
+      "id": 59,
+      "mbti": "ESFP"
+  }
+}

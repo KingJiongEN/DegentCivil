@@ -1,0 +1,189 @@
+site_name: Degent Civil
+site_description: Documentation for the Degent Civil
+site_url: https://KingJiongEN.github.io/DegentCivil/
+repo_name: DegentCivil
+repo_url: https://github.com/KingJiongEN/DegentCivil
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - navigation.tracking
+    - navigation.expand
+    - navigation.indexes
+    - navigation.instant
+    - navigation.footer
+    - search.suggest
+    - search.highlight
+    - search.share
+    - content.tabs.link
+    - content.code.annotation
+    - content.code.copy
+    - announce.dismiss
+  language: en
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+      primary: teal
+      accent: purple
+    - scheme: slate
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+      primary: teal
+      accent: lime
+  font:
+    text: Roboto
+    code: Roboto Mono
+  icon:
+    repo: fontawesome/brands/github
+  logo: assets/logo.png
+  favicon: assets/favicon.png
+
+plugins:
+  - search
+  - mermaid2
+  - minify:
+      minify_html: true
+      minify_js: true
+      minify_css: true
+      htmlmin_opts:
+        remove_comments: true
+  - git-revision-date
+  - redirects:
+      redirect_maps:
+        'old/path.md': 'new/path.md'
+  - awesome-pages
+  - mike:
+      version_selector: true
+      canonical_version: latest
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - admonition
+  - pymdownx.arithmatex:
+      generic: true
+  - footnotes
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.mark
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - def_list
+  - pymdownx.tabbed:
+      alternate_style: true
+  - abbr
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+      toc_depth: 3
+
+extra:
+  version:
+    provider: mike
+    default: latest
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/KingJiongEN/DegentCivil
+    - icon: fontawesome/brands/python
+      link: https://pypi.org/project/DegentCivil/
+  analytics:
+    provider: google
+    property: !ENV GOOGLE_ANALYTICS_KEY
+  consent:
+    title: Cookie consent
+    description: >- 
+      We use cookies to recognize your repeated visits and preferences, as well
+      as to measure the effectiveness of our documentation and whether users
+      find what they're searching for. With your consent, you're helping us to
+      make our documentation better.
+    actions:
+      - accept
+      - reject
+      - manage
+
+extra_css:
+  - stylesheets/extra.css
+
+extra_javascript:
+  - javascripts/extra.js
+  - https://unpkg.com/mermaid/dist/mermaid.min.js
+  - javascripts/mermaid.js
+
+copyright: >
+  Copyright &copy; 2024 Town Simulation Team –
+  <a href="#__consent">Change cookie settings</a>
+
+nav:
+  - Home: index.md
+  - Getting Started:
+    - Installation: getting-started/installation.md
+    - Configuration: getting-started/configuration.md
+    - Quick Start: getting-started/quick-start.md
+  - Core Concepts:
+    - Overview: core-concepts/overview.md
+    - Character System: core-concepts/character-system.md
+    - State Management: core-concepts/state-management.md
+    - Memory System: core-concepts/memory-system.md
+    - Building System: core-concepts/building-system.md
+    - Simulation Logic: core-concepts/simulation-logic.md
+  - API Reference:
+    - Models:
+      - Town Model: api-reference/models/town.md
+      - Character Model: api-reference/models/character.md
+      - Building Model: api-reference/models/building.md
+      - Memory Model: api-reference/models/memory.md
+      - Entity Model: api-reference/models/entity.md
+      - Agenda Model: api-reference/models/agenda.md
+    - Services:
+      - Simulation Service: api-reference/services/simulation.md
+      - Character State Services: api-reference/services/character-state.md
+      - Database Services: api-reference/services/database.md
+      - Communication Services: api-reference/services/communication.md
+    - LLM Integration:
+      - LLM Callers: api-reference/llm/callers.md
+      - Prompt System: api-reference/llm/prompt-system.md
+      - Custom Implementation: api-reference/llm/custom-implementation.md
+  - Advanced Topics:
+    - Custom States: advanced-topics/custom-states.md
+    - Prompt Engineering: advanced-topics/prompt-engineering.md
+    - Performance: advanced-topics/performance.md
+    - Database Management: advanced-topics/database-management.md
+    - WebSocket Integration: advanced-topics/websocket.md
+  - Developer Guide:
+    - Contributing: developer-guide/contributing.md
+    - Testing: developer-guide/testing.md
+    - Code Style: developer-guide/code-style.md
+  - Examples:
+    - Basic Usage: examples/basic-usage.md
+    - Advanced Scenarios: examples/advanced-scenarios.md
+    - Common Use Cases: examples/common-use-cases.md
+    - Troubleshooting: examples/troubleshooting.md
+markdown_extensions:
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg 
+plugins:
+  - search
+  - git-revision-date-localized
+  - minify:
+      minify_html: true 

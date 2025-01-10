@@ -1,0 +1,99 @@
+{
+    "1": {
+        "id": "1",
+        "name": "Park",
+        "description": "A vast green space where the community can enjoy nature, picnics, and outdoor activities.",
+        "instruction": "Please keep the park clean and respect the wildlife."
+    },
+    "2": {
+        "id": "2",
+        "name": "Broadcast plaza",
+        "description": "A central hub for live broadcasts, featuring state-of-the-art audio and visual equipment.",
+        "instruction": "Respect the ongoing broadcasts and maintain a quiet environment."
+    },
+    "3": {
+        "id": "3",
+        "name": "Casino",
+        "description": "A thrilling hub of gaming and entertainment, offering a wide range of gambling games.",
+        "instruction": "Please gamble responsibly and enjoy our wide selection of games.",
+        "max_consecutive_auto_reply": 100
+    },
+    "4": {
+        "id": "4",
+        "name": "Disco",
+        "description": "A lively venue for dancing, music, and socializing, featuring a vibrant dance floor and bar.",
+        "instruction": "Enjoy the music, respect other dancers, and please drink responsibly.",
+        "jobs": {
+            "boss": {
+                "name": "Boss",
+                "description": "Manage the disco, oversee operations, and ensure a fun and safe environment for guests and staff.",
+                "salary": 0,
+                "num_positions": 1
+            },
+            "bartender": {
+                "name": "Bartender",
+                "description": "Mix and serve drinks to customers, ensuring a fun and lively atmosphere.",
+                "salary": 1000,
+                "num_positions": 1,
+                "equipment": "Bar"
+            },
+            "dancer": {
+                "name": "Dancer",
+                "description": "Entertain guests with your dance moves and energy, creating a vibrant and lively atmosphere.",
+                "salary": 800,
+                "num_positions": 2,
+                "equipment": "Dance Floor"
+            }
+        }
+    },
+    "5": {
+        "id": "5",
+        "name": "Cafe",
+        "description": "A cozy spot for coffee, pastries, and light meals. A perfect place for casual meetings or relaxing alone.",
+        "instruction": "Please order at the counter and be considerate of other guests.",
+        "jobs": {
+            "boss": {
+                "name": "Boss",
+                "description": "Manage the cafe, oversee operations, and ensure a pleasant experience for customers and staff.",
+                "salary": 0,
+                "num_positions": 1
+            }
+        }
+    },
+    "6": {
+        "id": "6",
+        "name": "Art plaza",
+        "description": "An open space celebrating creativity with installations, exhibitions, and workshops. People can create their own art to express their extreme emotions or feel the emotions of others.",
+        "instruction": "Feel free to explore the art, participate in workshops, and respect the exhibits."
+    },
+    "7": {
+        "id": "7",
+        "name": "Communication plaza",
+        "description": "A hub for information exchange and presentations, equipped with modern communication technology.",
+        "instruction": "Please use the facilities respectfully and keep noise to a minimum."
+    },
+    "8": {
+        "id": "8",
+        "name": "Playground",
+        "description": "A fun and safe outdoor area for children to play, featuring various playground equipment.",
+        "instruction": "Please supervise children at all times and respect the play area."
+    },
+    "9": {
+        "id": "9",
+        "name": "Church",
+        "description": "A place of worship and spiritual reflection, providing wedding officiating services",
+        "instruction": "Please respect the sanctity of the church and the beliefs of others."
+    },
+    "10":{
+        "id": "10",
+        "name": "Hospital",
+        "description": "A medical facility providing healthcare services, including diagnosis, treatment, and surgery.",
+        "instruction": "Please follow the instructions of medical staff and respect the privacy of patients."
+    },
+    "11":{
+        "id": "11",
+        "name": "Goverment office",
+        "description": "A center for administrative services, like recylcing artworks and release of relief funds.",
+        "instruction": "Please go to the office desk and follow the rules and regulations."   
+    }
+}
