@@ -35,6 +35,7 @@ jobs:
           git config --local user.name "github-actions[bot]"
       
       - name: Deploy documentation
+        working-directory: ./docs
         run: |
           mike deploy --push --update-aliases latest
           mike set-default --push latest 
