@@ -1,6 +1,6 @@
 # Core Concepts Overview
 
-The Degent Civil is built around several key concepts that work together to create a dynamic and interactive virtual town environment. This overview will introduce you to these core concepts and how they interact with each other.
+The Degent Civilization is built around several key concepts that work together to create a dynamic and interactive virtual town environment. This overview will introduce you to these core concepts and how they interact with each other.
 
 ## System Architecture
 

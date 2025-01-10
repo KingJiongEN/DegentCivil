@@ -1,6 +1,6 @@
 # Simulation Logic
 
-The Simulation Logic system is the core engine that drives the Degent Civil. It manages time progression, event scheduling, character behaviors, and the overall simulation state.
+The Simulation Logic system is the core engine that drives the Degent Civilization. It manages time progression, event scheduling, character behaviors, and the overall simulation state.
 
 ## Overview
 

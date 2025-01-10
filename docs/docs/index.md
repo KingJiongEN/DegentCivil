@@ -1,10 +1,10 @@
-# Degent Civil
+# Degent Civilization
 
-Welcome to the Degent Civil documentation! This service provides a sophisticated backend system for simulating town operations with AI-driven characters, real-time interactions, and dynamic state management.
+Welcome to the Degent Civilization documentation! This service provides a sophisticated backend system for simulating town operations with AI-driven characters, real-time interactions, and dynamic state management.
 
 ## Overview
 
-Degent Civil is a powerful backend service that creates a living, breathing virtual town environment. It combines advanced AI technologies with real-time simulation to create dynamic and interactive town scenarios.
+Degent Civilization is a powerful backend service that creates a living, breathing virtual town environment. It combines advanced AI technologies with real-time simulation to create dynamic and interactive town scenarios.
 
 ### Key Features
 

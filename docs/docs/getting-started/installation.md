@@ -1,6 +1,6 @@
 # Installation Guide
 
-This guide will walk you through the process of setting up the Degent Civil on your system.
+This guide will walk you through the process of setting up the Degent Civilization on your system.
 
 ## Prerequisites
 

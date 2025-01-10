@@ -1,6 +1,6 @@
 # Character System
 
-The Character System is one of the core components of the Degent Civil. It manages the creation, behavior, and interactions of all characters within the town simulation.
+The Character System is one of the core components of the Degent Civilization. It manages the creation, behavior, and interactions of all characters within the town simulation.
 
 ## Character Model
 

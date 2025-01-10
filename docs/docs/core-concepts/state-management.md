@@ -1,6 +1,6 @@
 # State Management
 
-The State Management system is a crucial component of the Degent Civil that controls character behaviors, activities, and interactions through a sophisticated state machine implementation.
+The State Management system is a crucial component of the Degent Civilization that controls character behaviors, activities, and interactions through a sophisticated state machine implementation.
 
 ## Overview
 

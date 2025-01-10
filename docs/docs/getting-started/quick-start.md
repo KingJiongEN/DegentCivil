@@ -1,6 +1,6 @@
 # Quick Start Guide
 
-This guide will help you get started with the Degent Civil quickly. We'll create a simple town with a few characters and run basic interactions.
+This guide will help you get started with the Degent Civilization quickly. We'll create a simple town with a few characters and run basic interactions.
 
 ## Prerequisites
 
