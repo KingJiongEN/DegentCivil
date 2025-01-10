@@ -39,7 +39,9 @@ jobs:
       
       - name: Deploy documentation
         run: |
+          git checkout gh-pages || git checkout -b gh-pages
           mkdocs gh-deploy --force
+          git push origin gh-pages
         env:
           GOOGLE_ANALYTICS_KEY: ${{ secrets.GOOGLE_ANALYTICS_KEY }}
       
