@@ -21,7 +21,6 @@ Degent Civilization is a powerful backend service that creates a living, breathi
 - [📚 Core Concepts](core-concepts/overview.md)
 - [🔧 API Reference](api-reference/models/town.md)
 - [💡 Examples](examples/basic-usage.md)
-- [👥 Contributing Guide](developer-guide/contributing.md)
 
 ## System Requirements
 
