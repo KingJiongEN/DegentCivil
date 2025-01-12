@@ -9,7 +9,7 @@
 
 *A sophisticated AI-driven town simulation system with autonomous characters, dynamic interactions, and realistic behaviors.*
 
-[📚 Documentation](https://KingJiongEN.github.io/DegentCivil/) | [🚀 Quick Start](https://KingJiongEN.github.io/DegentCivil/getting-started/quick-start) | [💡 Examples](https://KingJiongEN.github.io/DegentCivil/examples/basic-usage) | [🤝 Contributing](https://KingJiongEN.github.io/DegentCivil/developer-guide/contributing)
+[📚 Documentation](https://KingJiongEN.github.io/DegentCivil/) | [🚀 Quick Start](https://KingJiongEN.github.io/DegentCivil/getting-started/installation/) | [💡 Examples](https://KingJiongEN.github.io/DegentCivil/examples/add_new_state) | [🤝 Contributing](https://KingJiongEN.github.io/DegentCivil/developer-guide/contributing/)
 
 </div>
 

@@ -33,17 +33,3 @@ def db_session():
     finally:
         session.close()
 
-
-# 下面可以添加一些数据库操作的函数，例如创建、查询等
-def create_town(session, town_data):
-    """
-    创建一个新的城镇记录
-    :param session: 数据库会话
-    :param town_data: 城镇数据
-    :return: 新创建的城镇对象
-    """
-    # 示例代码，根据实际的模型结构进行调整
-    new_town = Town(**town_data)
-    session.add(new_town)
-    session.commit()
-    return new_town

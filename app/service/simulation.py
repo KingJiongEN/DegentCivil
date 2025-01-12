@@ -271,7 +271,6 @@ class Simulation:
                 bio=character["bio"],
                 goal=character["goal"],
                 llm_cfg=self.configs['oai_cfg'],
-                town_id=1,
                 health=100,
                 money=100,
                 staiety=2,

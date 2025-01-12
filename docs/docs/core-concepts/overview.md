@@ -7,9 +7,11 @@ The Degent Civilization is built around several key concepts that work together 
 ```mermaid
 flowchart TD
     Start[Start Simulation] --> Init[Initialize Simulation]
-    Init --> LoadData[Load Frontend/Backend Data]
-    LoadData --> CreateManagers[Create Character State Managers]
+    Init --> LoadConfig[Load Config Files]
+    LoadConfig --> LoadLLM[Load LLM Configuration]
+    LoadLLM --> LoadData[Load Frontend/Backend Data]
     
+    LoadData --> CreateManagers[Create Character State Managers]
     CreateManagers --> UpdateLoop[Update Loop]
     
     UpdateLoop --> HandleMsg{Handle Server Messages}

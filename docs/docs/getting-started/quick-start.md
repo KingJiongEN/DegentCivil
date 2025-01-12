@@ -1,6 +1,6 @@
 # Quick Start Guide
 
-This guide will help you get started with the Degent Civilization quickly. We'll create a simple town with a few characters and run basic interactions.
+This guide will help you get started with the Degent Civilization quickly. We'll create a simple simulation with buildings and characters.
 
 ## Prerequisites
 
@@ -11,115 +11,107 @@ Ensure you have:
 
 ## Basic Usage
 
-### 1. Start the Service
+### 1. Configure Environment
 
+First, set up your environment variables:
 ```bash
-DEBUG=1 Milvus=1 python main.py
+export DEBUG=1
+export Milvus=1
 ```
 
-### 2. Create a Simple Town
+### 2. Start the Simulation
 
 ```python
-from app.models.town import Town
-from app.models.character import Character
-from app.models.building import Building
+from app.service.simulation import Simulation
 
-# Initialize a new town
-town = Town(name="MyTown")
-
-# Add some buildings
-cafe = Building(
-    name="Town Cafe",
-    description="A cozy cafe in the heart of town",
-    building_type="COMMERCIAL"
+# Initialize simulation with config files
+simulation = Simulation(
+    state_config_file='config/states.yaml',
+    oai_config_file='OAI_CONFIG_LIST'
 )
-town.add_building(cafe)
 
-# Add characters
-alice = Character(
-    name="Alice",
-    description="A friendly cafe owner",
-    occupation="Cafe Owner",
-    location=cafe
-)
-town.add_character(alice)
-
-# Start the simulation
-town.start_simulation()
+# Start the service
+simulation.debug_service()  # For testing without frontend
 ```
 
-### 3. Basic Character Interactions
+### 3. Working with Buildings
 
 ```python
-# Get character state
-alice_state = alice.get_current_state()
+# Access building list
+buildings = simulation.building_list
 
-# Trigger an interaction
-response = alice.interact_with("What's the special today?")
-print(response)
+# Get a specific building
+cafe = buildings.get_building_by_name("Coffee Shop")
 
-# Update character's location
-new_location = town.get_building("Town Square")
-alice.update_location(new_location)
+# Get building by position
+building_at_pos = buildings.get_building_by_pos(x=10, y=10)
+```
+
+### 4. Working with Characters
+
+```python
+# Access character list
+characters = simulation.character_list
+
+# Get character state managers
+state_managers = simulation.character_state_managers
+
+# Access specific character's state manager
+character_manager = state_managers["Alice"]
 ```
 
 ## Example Scenarios
 
-### 1. Character Daily Routine
+### 1. Character State Management
 
 ```python
-# Set up a daily routine for Alice
-alice.set_schedule([
-    {"time": "08:00", "action": "open_cafe", "location": "Town Cafe"},
-    {"time": "12:00", "action": "lunch_break", "location": "Town Cafe"},
-    {"time": "17:00", "action": "close_cafe", "location": "Town Cafe"}
-])
+# Get character's current state
+state_manager = simulation.character_state_managers["Alice"]
+current_state = state_manager.current_state.state_name
 
-# Start the routine
-alice.start_daily_routine()
+# Update character state
+simulation.update_state()
 ```
 
-### 2. Town Events
+### 2. Message Handling
 
 ```python
-# Create a town event
-town.create_event(
-    name="Summer Festival",
-    description="Annual town summer celebration",
-    location="Town Square",
-    participants=town.get_all_characters()
-)
+# Handle server messages
+server_msgs = simulation.handle_server_msg()
 
-# Start the event
-town.start_event("Summer Festival")
+# Filter messages for specific character
+character_manager = simulation.character_state_managers["Alice"]
+filtered_msg = simulation.filter_out_msg(server_msgs, character_manager)
 ```
 
 ## Memory System Usage
 
 ```python
-# Add a memory for a character
-alice.add_memory(
-    content="Met Bob at the cafe",
-    importance=0.8,
-    related_entities=["Bob", "Town Cafe"]
-)
+# Access character's memory
+character = simulation.character_list.get_character_by_name("Alice")
 
-# Retrieve relevant memories
-cafe_memories = alice.retrieve_memories(
-    query="What happened at the cafe today?",
-    limit=5
-)
+# Store a memory
+character.memory.store({
+    "people": {
+        "Bob": {
+            "interaction": "Met at cafe",
+            "timestamp": "2024-03-15T10:30:00"
+        }
+    }
+})
+
+# Retrieve memories
+memories = character.memory.get_people_memory("Bob")
 ```
 
 ## State Management
 
 ```python
-# Change character state
-alice.change_state("BUSY")
+# Update simulation state
+simulation.update_state()
 
-# Check if character can interact
-if alice.can_interact():
-    response = alice.interact_with("Hello!")
+# Save current state
+simulation.save_state()
 ```
 
 ## Next Steps
@@ -131,63 +123,63 @@ if alice.can_interact():
 
 ## Common Operations
 
-### Character Management
-
-```python
-# Get all characters
-all_characters = town.get_all_characters()
-
-# Find characters by trait
-merchants = town.find_characters_by_occupation("Merchant")
-
-# Get character relationships
-alice_relationships = alice.get_relationships()
-```
-
 ### Building Management
 
 ```python
 # Get all buildings
-all_buildings = town.get_all_buildings()
+all_buildings = simulation.building_list.buildings
 
-# Find buildings by type
-shops = town.find_buildings_by_type("COMMERCIAL")
+# Find building by name
+cafe = simulation.building_list.get_building_by_name("Coffee Shop")
 
-# Get building occupants
-cafe_occupants = cafe.get_occupants()
+# Check if position is inside building
+is_inside = cafe.cordinate_in_building(x=5, y=5)
+```
+
+### Character Management
+
+```python
+# Get all characters
+all_characters = simulation.character_list.characters
+
+# Get character by name
+character = simulation.character_list.get_character_by_name("Alice")
 ```
 
 ### Simulation Control
 
 ```python
-# Pause simulation
-town.pause_simulation()
+# Start simulation
+simulation.start_service(city_state_msg)
 
-# Resume simulation
-town.resume_simulation()
+# Update simulation
+simulation.update_state()
 
-# Get simulation status
-status = town.get_simulation_status()
+# Save simulation state
+simulation.save_state()
 ```
 
 ## Troubleshooting
 
 If you encounter issues:
 
-1. Check the logs:
-```python
-town.get_logs()
-character.get_logs()
+1. Check environment variables:
+```bash
+echo $DEBUG
+echo $Milvus
 ```
 
-2. Verify service status:
+2. Verify Redis connection:
 ```python
-town.check_services_status()
+import redis
+r = redis.Redis(host='localhost', port=6379, db=0)
+print(r.ping())
 ```
 
-3. Reset character state:
+3. Check simulation status:
 ```python
-character.reset_state()
+print(simulation.started)
+print(simulation.total_update_count)
 ```
 
 For more detailed information, refer to our [Troubleshooting Guide](../examples/troubleshooting.md). 

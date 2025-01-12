@@ -148,12 +148,18 @@ nav:
     - Simulation Logic: core-concepts/simulation-logic.md
   - API Reference:
     - Models:
-      - Town Model: api-reference/models/town.md
+      - Base Agent Model: api-reference/models/base-agent.md
       - Character Model: api-reference/models/character.md
       - Building Model: api-reference/models/building.md
       - Memory Model: api-reference/models/memory.md
       - Entity Model: api-reference/models/entity.md
       - Agenda Model: api-reference/models/agenda.md
+      - State Manager: api-reference/models/state-manager.md
+      - Scheduler: api-reference/models/scheduler.md
+      - Transaction: api-reference/models/transaction.md
+      - Market Adjust: api-reference/models/market-adjust.md
+      - Trader: api-reference/models/trader.md
+      - Inner Monologue: api-reference/models/monologue.md
     - Services:
       - Simulation Service: api-reference/services/simulation.md
       - Character State Services: api-reference/services/character-state.md

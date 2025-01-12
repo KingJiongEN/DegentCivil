@@ -64,7 +64,6 @@ async def main():
                         bio=character_dict["bio"],
                         goal=character_dict["goal"],
                         llm_cfg=llm_cfg,
-                        town_id=1,
                         health=100,
                         money=100,
                         staiety=2,
