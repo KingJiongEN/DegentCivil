@@ -2,110 +2,154 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://KingJiongEN.github.io/DegentCivil/latest/</loc>
-         <lastmod>2025-01-11</lastmod>
+         <lastmod>2025-01-12</lastmod>
     </url>
     <url>
          <loc>https://KingJiongEN.github.io/DegentCivil/latest/advanced-topics/custom-states/</loc>
-         <lastmod>2025-01-11</lastmod>
+         <lastmod>2025-01-12</lastmod>
     </url>
     <url>
          <loc>https://KingJiongEN.github.io/DegentCivil/latest/advanced-topics/database-management/</loc>
-         <lastmod>2025-01-11</lastmod>
+         <lastmod>2025-01-12</lastmod>
     </url>
     <url>
          <loc>https://KingJiongEN.github.io/DegentCivil/latest/advanced-topics/performance/</loc>
-         <lastmod>2025-01-11</lastmod>
+         <lastmod>2025-01-12</lastmod>
     </url>
     <url>
          <loc>https://KingJiongEN.github.io/DegentCivil/latest/advanced-topics/prompt-engineering/</loc>
-         <lastmod>2025-01-11</lastmod>
+         <lastmod>2025-01-12</lastmod>
     </url>
     <url>
          <loc>https://KingJiongEN.github.io/DegentCivil/latest/advanced-topics/websocket/</loc>
-         <lastmod>2025-01-11</lastmod>
+         <lastmod>2025-01-12</lastmod>
     </url>
     <url>
          <loc>https://KingJiongEN.github.io/DegentCivil/latest/api-reference/character/</loc>
-         <lastmod>2025-01-11</lastmod>
+         <lastmod>2025-01-12</lastmod>
     </url>
     <url>
          <loc>https://KingJiongEN.github.io/DegentCivil/latest/api-reference/llm/callers/</loc>
-         <lastmod>2025-01-11</lastmod>
+         <lastmod>2025-01-12</lastmod>
+    </url>
+    <url>
+         <loc>https://KingJiongEN.github.io/DegentCivil/latest/api-reference/models/base-agent/</loc>
+         <lastmod>2025-01-12</lastmod>
     </url>
     <url>
          <loc>https://KingJiongEN.github.io/DegentCivil/latest/api-reference/models/building/</loc>
-         <lastmod>2025-01-11</lastmod>
+         <lastmod>2025-01-12</lastmod>
     </url>
     <url>
          <loc>https://KingJiongEN.github.io/DegentCivil/latest/api-reference/models/character/</loc>
-         <lastmod>2025-01-11</lastmod>
+         <lastmod>2025-01-12</lastmod>
+    </url>
+    <url>
+         <loc>https://KingJiongEN.github.io/DegentCivil/latest/api-reference/models/content-generator/</loc>
+         <lastmod>2025-01-12</lastmod>
+    </url>
+    <url>
+         <loc>https://KingJiongEN.github.io/DegentCivil/latest/api-reference/models/emotion/</loc>
+         <lastmod>2025-01-12</lastmod>
+    </url>
+    <url>
+         <loc>https://KingJiongEN.github.io/DegentCivil/latest/api-reference/models/entity-factory/</loc>
+         <lastmod>2025-01-12</lastmod>
+    </url>
+    <url>
+         <loc>https://KingJiongEN.github.io/DegentCivil/latest/api-reference/models/market-adjust/</loc>
+         <lastmod>2025-01-12</lastmod>
     </url>
     <url>
          <loc>https://KingJiongEN.github.io/DegentCivil/latest/api-reference/models/memory/</loc>
-         <lastmod>2025-01-11</lastmod>
+         <lastmod>2025-01-12</lastmod>
     </url>
     <url>
-         <loc>https://KingJiongEN.github.io/DegentCivil/latest/api-reference/models/town/</loc>
-         <lastmod>2025-01-11</lastmod>
+         <loc>https://KingJiongEN.github.io/DegentCivil/latest/api-reference/models/monologue/</loc>
+         <lastmod>2025-01-12</lastmod>
+    </url>
+    <url>
+         <loc>https://KingJiongEN.github.io/DegentCivil/latest/api-reference/models/preference/</loc>
+         <lastmod>2025-01-12</lastmod>
+    </url>
+    <url>
+         <loc>https://KingJiongEN.github.io/DegentCivil/latest/api-reference/models/resource-generator/</loc>
+         <lastmod>2025-01-12</lastmod>
+    </url>
+    <url>
+         <loc>https://KingJiongEN.github.io/DegentCivil/latest/api-reference/models/scheduler/</loc>
+         <lastmod>2025-01-12</lastmod>
+    </url>
+    <url>
+         <loc>https://KingJiongEN.github.io/DegentCivil/latest/api-reference/models/state-manager/</loc>
+         <lastmod>2025-01-12</lastmod>
+    </url>
+    <url>
+         <loc>https://KingJiongEN.github.io/DegentCivil/latest/api-reference/models/trader/</loc>
+         <lastmod>2025-01-12</lastmod>
+    </url>
+    <url>
+         <loc>https://KingJiongEN.github.io/DegentCivil/latest/api-reference/models/transaction/</loc>
+         <lastmod>2025-01-12</lastmod>
     </url>
     <url>
          <loc>https://KingJiongEN.github.io/DegentCivil/latest/api-reference/services/simulation/</loc>
-         <lastmod>2025-01-11</lastmod>
+         <lastmod>2025-01-12</lastmod>
     </url>
     <url>
          <loc>https://KingJiongEN.github.io/DegentCivil/latest/core-concepts/building-system/</loc>
-         <lastmod>2025-01-11</lastmod>
+         <lastmod>2025-01-12</lastmod>
     </url>
     <url>
          <loc>https://KingJiongEN.github.io/DegentCivil/latest/core-concepts/character-system/</loc>
-         <lastmod>2025-01-11</lastmod>
+         <lastmod>2025-01-12</lastmod>
     </url>
     <url>
          <loc>https://KingJiongEN.github.io/DegentCivil/latest/core-concepts/memory-system/</loc>
-         <lastmod>2025-01-11</lastmod>
+         <lastmod>2025-01-12</lastmod>
     </url>
     <url>
          <loc>https://KingJiongEN.github.io/DegentCivil/latest/core-concepts/overview/</loc>
-         <lastmod>2025-01-11</lastmod>
+         <lastmod>2025-01-12</lastmod>
     </url>
     <url>
          <loc>https://KingJiongEN.github.io/DegentCivil/latest/core-concepts/simulation-logic/</loc>
-         <lastmod>2025-01-11</lastmod>
+         <lastmod>2025-01-12</lastmod>
     </url>
     <url>
          <loc>https://KingJiongEN.github.io/DegentCivil/latest/core-concepts/state-management/</loc>
-         <lastmod>2025-01-11</lastmod>
+         <lastmod>2025-01-12</lastmod>
     </url>
     <url>
          <loc>https://KingJiongEN.github.io/DegentCivil/latest/developer-guide/code-style/</loc>
-         <lastmod>2025-01-11</lastmod>
+         <lastmod>2025-01-12</lastmod>
     </url>
     <url>
          <loc>https://KingJiongEN.github.io/DegentCivil/latest/developer-guide/contributing/</loc>
-         <lastmod>2025-01-11</lastmod>
+         <lastmod>2025-01-12</lastmod>
     </url>
     <url>
          <loc>https://KingJiongEN.github.io/DegentCivil/latest/developer-guide/testing/</loc>
-         <lastmod>2025-01-11</lastmod>
+         <lastmod>2025-01-12</lastmod>
     </url>
     <url>
          <loc>https://KingJiongEN.github.io/DegentCivil/latest/examples/add_new_state/</loc>
-         <lastmod>2025-01-11</lastmod>
+         <lastmod>2025-01-12</lastmod>
     </url>
     <url>
          <loc>https://KingJiongEN.github.io/DegentCivil/latest/examples/basic-usage/</loc>
-         <lastmod>2025-01-11</lastmod>
+         <lastmod>2025-01-12</lastmod>
     </url>
     <url>
          <loc>https://KingJiongEN.github.io/DegentCivil/latest/examples/troubleshooting/</loc>
-         <lastmod>2025-01-11</lastmod>
+         <lastmod>2025-01-12</lastmod>
     </url>
     <url>
          <loc>https://KingJiongEN.github.io/DegentCivil/latest/getting-started/installation/</loc>
-         <lastmod>2025-01-11</lastmod>
+         <lastmod>2025-01-12</lastmod>
     </url>
     <url>
          <loc>https://KingJiongEN.github.io/DegentCivil/latest/getting-started/quick-start/</loc>
-         <lastmod>2025-01-11</lastmod>
+         <lastmod>2025-01-12</lastmod>
     </url>
 </urlset>
